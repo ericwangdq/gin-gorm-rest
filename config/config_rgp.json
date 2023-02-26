@@ -1,0 +1,78 @@
+{
+  "shell-ui": {
+    "location": "https://cdn.industry.cloud.sap/rgp/rgp-shell-ui/ee57900"
+  },
+  "config": { "cdn": "https://cdn.industry.cloud.sap" },
+  "components": [
+    {
+      "name": "mfe-login-ui",
+      "location": "https://cdn.eurekasap.io/rgp/mfe-login-ui/28485bd",
+      "config": {
+        "app": "mfe-login",
+        "routers": ["/login", "/access-denied", "/error/404"]
+      }
+    },
+    {
+      "name": "rgp-promotion-config-ui",
+      "location": "https://cdn.industry.cloud.sap/rgp/rgp-promotion-config-ui/454c5d1",
+      "config": {
+        "app": "rgp-promotion-config",
+        "entrypoints": [
+          {
+            "title": "Application Sample",
+            "text": "Sample page",
+            "icon": "sap-icon--approvals",
+            "router": "/glory/sample/page"
+          }
+        ],
+        "sidenav": [
+          {
+            "id": "rgp-promotion-config-masterdata",
+            "text": "masterdata",
+            "router": "/masterdata/list",
+            "icon": "product",
+            "skipPermission": true,
+            "order": 46
+          }
+        ],
+        "fragments": [],
+        "routers": ["/masterdata/list"]
+      }
+    },
+    {
+      "name": "rgp-promotion-planning-ui",
+      "location": "https://cdn.industry.cloud.sap/rgp/rgp-promotion-planning-ui/7e1f06b",
+      "config": {
+        "app": "rgp-promotion-planning",
+        "entrypoints": [],
+        "sidenav": [
+          {
+            "id": "account-plan-dashboard",
+            "text": "Account Plan Dashboard",
+            "router": "/account-plan-dashboard",
+            "icon": "home",
+            "skipPermission": true,
+            "order": 1,
+            "items": []
+          },
+          {
+            "id": "spend-activity",
+            "text": "Spend Activity",
+            "router": "/spend-activity",
+            "icon": "activity-2",
+            "skipPermission": true,
+            "order": 2,
+            "items": []
+          }
+        ],
+        "fragments": [],
+        "routers": [
+          "/account-plan-dashboard",
+          "/spend-activity",
+          "/account-plans/:uuid",
+          "/demo-data"
+        ]
+      }
+    }
+  ]
+}

@@ -8,5 +8,7 @@ import (
 func main() {
 	router := gin.New()
 	routes.IndexRoute(router)
+	routes.ConfigRoute(router)
+
 	router.Run(":9090")
 }

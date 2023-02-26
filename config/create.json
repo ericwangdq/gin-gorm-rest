@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "userName": { "firstName": "P000243", "lastName": "" },
+  "pictureId": null,
+  "email": "adam.admin@sap.com",
+  "phone": null,
+  "language": "en-US",
+  "dateFormat": "YYYY-MM-DD",
+  "timeFormat": "TWENTYFOUR_HOUR",
+  "timeZone": null,
+  "profileTimeZone": null,
+  "useCompanyTimeZone": false,
+  "creationTime": "2023-02-16T03:02:42.262232",
+  "userUpdateState": null,
+  "status": "WAITING_COMPANY",
+  "tenantId": 1620625480703021056,
+  "role": null,
+  "externalUserId": "d9bf0919-8828-4a49-bff4-b855b595e25b",
+  "avatarIcon": { "type": "Initials", "value": "P" },
+  "familyNameFirst": false,
+  "s4ExternalUserId": null,
+  "themeId": null
+}
