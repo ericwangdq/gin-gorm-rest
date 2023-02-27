@@ -30,7 +30,7 @@
           },
           {
             "name": "rgp promotion config",
-            "url": "rgp-promotion-config"
+            "url": "/api/rgp-promotion-config"
           }
         ]
       }

@@ -7,8 +7,11 @@ import (
 
 func main() {
 	router := gin.New()
-	routes.IndexRoute(router)
-	routes.ConfigRoute(router)
+	// router.GET("/*", func(ctx *gin.Context) {
+	// 	ctx.String(200, "Index page")
+	// })
 
+	routes.ConfigRoute(router)
+	routes.IndexRoute(router)
 	router.Run(":9090")
 }
