@@ -10,7 +10,7 @@ GIN is very popular Go web framework and
 GORM is also very popular ORM for SQL Databases in Go
 
 Youtube link:
-https://www.youtube.com/watch?v=ZI6HaPKHYsg
+https://www.youtube.com/watch?v=ZI6HaPKHYsg Go REST API With GIN & GORM | Postgres | Docker
 
 https://go.dev/doc/install
 
