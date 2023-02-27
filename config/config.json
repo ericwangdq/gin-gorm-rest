@@ -2,7 +2,40 @@
   "rgm-shell-ui": {
     "location": "https://cdn.industry.cloud.sap/rgp/rgp-shell-ui/ee57900"
   },
-  "config": { "cdn": "https://cdn.industry.cloud.sap" },
+  "config": {
+    "cdn": "https://cdn.industry.cloud.sap",
+    "token": "gin_xxxxxx",
+    "services": [
+      {
+        "name": "rgm",
+        "prefix": "rgm",
+        "components": [
+          {
+            "name": "responsibility management",
+            "url": "/api/responsibility-management"
+          },
+          {
+            "name": "user configuration plus",
+            "url": "/api/user-configuration-plus"
+          }
+        ]
+      },
+      {
+        "name": "rgp",
+        "prefix": "rgp",
+        "components": [
+          {
+            "name": "rgp promotion planning",
+            "url": "/api/rgp-promotion-planning"
+          },
+          {
+            "name": "rgp promotion config",
+            "url": "rgp-promotion-config"
+          }
+        ]
+      }
+    ]
+  },
   "main": {
     "name": "rgm",
     "prefix": "rgm",
@@ -148,13 +181,13 @@
     },
     {
       "name": "rgo",
-      "prefix": "rgp",
+      "prefix": "rgo",
       "components": [
         {
-          "name": "rgp-promotion-config-ui",
+          "name": "rgo-promotion-config-ui",
           "location": "https://cdn.industry.cloud.sap/rgp/rgp-promotion-config-ui/454c5d1",
           "config": {
-            "app": "rgp-promotion-config",
+            "app": "rgo-promotion-config",
             "entrypoints": [
               {
                 "title": "Application Sample",
@@ -178,7 +211,7 @@
           }
         },
         {
-          "name": "rgp-promotion-planning-ui",
+          "name": "rgo-promotion-planning-ui",
           "location": "https://cdn.industry.cloud.sap/rgp/rgp-promotion-planning-ui/4499152",
           "config": {
             "app": "rgp-promotion-planning",
