@@ -1,5 +1,5 @@
 {
-  "rgm-shell-ui": {
+  "shell-ui": {
     "location": "https://cdn.industry.cloud.sap/rgp/rgp-shell-ui/ee57900"
   },
   "config": {
