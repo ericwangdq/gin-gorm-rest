@@ -1,1 +1,1 @@
-{ "roles": [] }
+{ "roles": ["promotion.READ", "promotion.WRITE"] }

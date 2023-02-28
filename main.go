@@ -7,7 +7,7 @@ import (
 
 func main() {
 	router := gin.New()
-	// router.GET("/*", func(ctx *gin.Context) {
+	// router.GET("/", func(ctx *gin.Context) {
 	// 	ctx.String(200, "Index page")
 	// })
 

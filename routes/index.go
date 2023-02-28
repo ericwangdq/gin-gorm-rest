@@ -27,9 +27,9 @@ func IndexRoute(router *gin.Engine) {
 					fmt.Printf("shell UI does not exist\n")
 					return
 				}
-				shellUiObj := shellUi.(map[string]interface{})
-				fmt.Printf("shell-ui config: ", shellUiObj["location"].(string))
-				CdnPrefix = shellUiObj["location"].(string)
+				shellUiMap := shellUi.(map[string]interface{})
+				fmt.Printf("shell-ui config: ", shellUiMap["location"].(string))
+				CdnPrefix = shellUiMap["location"].(string)
 			} else {
 				fmt.Printf("could not unmarshal config json: %s\n", err)
 				return
