@@ -4,7 +4,8 @@
   },
   "config": {
     "cdn": "https://cdn.industry.cloud.sap",
-    "token": "gin_xxxxxx",
+    "token": "bearer_token",
+    "cookie": "gin_xxxxxx",
     "services": [
       {
         "name": "rgm",
