@@ -14,6 +14,10 @@ https://www.youtube.com/watch?v=ZI6HaPKHYsg
 
 https://go.dev/doc/install
 
+Gin Web Framework
+
+https://gin-gonic.com/zh-cn/docs/quickstart/
+
 https://github.com/gin-gonic/gin/blob/master/docs/doc.md
 
 https://gin-gonic.com/zh-cn/docs/examples/ascii-json/
