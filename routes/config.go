@@ -92,7 +92,7 @@ func ConfigRoute(router *gin.Engine) {
 		fmt.Println("Path: " + path)
 
 		host := "rgp.rgp-uat.e4844d9.kyma.ondemand.com"
-		cookie := "gin=MTY3NzU5MDI4MHxOd3dBTkVzMVZVNU1XVm8zV2xCUVRGaEZRbE5EVFVWRFIwMVBXRTlJVERRMlRsbFZTVlpCTTB0TFFsZFZVRTAzU1U1WVRWWlpObEU9fK8WmfZbvhtdonHxVK5JlssgwCiGztGfFJUddHyGHMdy"
+		cookie := "gin=MTY3NzY1MDcxN3xOd3dBTkVzMVZVNU1XVm8zV2xCUVRGaEZRbE5EVFVWRFIwMVBXRTlJVERRMlRsbFZTVlpCTTB0TFFsZFZVRTAzU1U1WVRWWlpObEU9fFwmvbCxeD84nzuooMsd1s8ExbO5LrnEKIAjjorE89FT"
 		proxy := &httputil.ReverseProxy{
 			Director: func(req *http.Request) {
 				req.URL.Scheme = "https"

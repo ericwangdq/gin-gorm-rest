@@ -9,8 +9,8 @@ For Database we sill install postgres via docker compose.
 GIN is very popular Go web framework and
 GORM is also very popular ORM for SQL Databases in Go
 
-Youtube link:
-https://www.youtube.com/watch?v=ZI6HaPKHYsg Go REST API With GIN & GORM | Postgres | Docker
+Go REST API With GIN & GORM | Postgres | Docker - Youtube link:
+https://www.youtube.com/watch?v=ZI6HaPKHYsg
 
 https://go.dev/doc/install
 
